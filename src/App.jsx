@@ -1,15 +1,18 @@
 import { useState } from 'react'
 import './App.css'
 import CommonContainer from './CommonContainer'
+import InventoryDetails from './Pages01/index'
 
 function App() {
 
   return (
     <>
-      <CommonContainer>
+      <main className=''>
 
-          <h1 className='text-black text-xl'>this is details page</h1>
-      </CommonContainer>
+        <CommonContainer>
+          <InventoryDetails />
+        </CommonContainer>
+      </main>
     </>
   )
 }
